@@ -15,6 +15,7 @@ import de.westnordost.streetcomplete.quests.bike_parking_capacity.AddBikeParking
 import de.westnordost.streetcomplete.quests.bike_parking_cover.AddBikeParkingCover;
 import de.westnordost.streetcomplete.quests.bike_parking_type.AddBikeParkingType;
 import de.westnordost.streetcomplete.quests.bikeway.AddCycleway;
+import de.westnordost.streetcomplete.quests.bikeway.AddSidewalk;
 import de.westnordost.streetcomplete.quests.bridge_structure.AddBridgeStructure;
 import de.westnordost.streetcomplete.quests.building_levels.AddBuildingLevels;
 import de.westnordost.streetcomplete.quests.building_type.AddBuildingType;
@@ -92,6 +93,7 @@ public class QuestModule
 				new AddBikeParkingCapacity(o), // cycle map layer on osm.org
 				new AddOrchardProduce(o),
 				new AddCycleway(o),
+				new AddSidewalk(o),
 				new AddCrossingType(o),
 				new AddBuildingLevels(o),
 				new AddBusStopShelter(o), // at least OsmAnd
